@@ -4,7 +4,7 @@ import urllib.request
 from sys import exit, argv
 from _thread import *
 
-root_url = "http://192.168.0.103"  # ESP's url, ex: http://192.168.102 (Esp prints it to serial console when connected to wifi)
+root_url = ""  # ESP's url, ex: http://192.168.102 (Esp prints it to serial console when connected to wifi)
 
 def sendRequest(url):
     n = urllib.request.urlopen(url) # send request to ESP
