@@ -2,7 +2,6 @@
  * Written by Junicchi
  * https://github.com/Kebablord
 
-
  * MAP
  - start(ssid,password)---> Connects to wifi with given username and password
  - waitUntilNewReq() -----> Waits until a new python request come, checks for requests regularly
