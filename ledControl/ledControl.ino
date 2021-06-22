@@ -15,16 +15,16 @@
 */
 
 /*
-RED - Sleeping - LOW
-YELLOW - Staying alert and working - NORMAL
-BLUE - Working out - EXCITED
-PURPLE - Lowering anxiety - STRESS 
+  * RED - Sleeping - LOW 
+  * YELLOW - Staying alert and working - NORMAL
+  * BLUE - Working out - EXCITED
+  * PURPLE - Lowering anxiety - STRESS
 */
 #include "ESP_MICRO.h"
 
 void setup(){
   Serial.begin(9600);
-  start("Surya","surya7777"); // Wifi details connec to
+  start("wifi name","wifi password"); // Wifi details to connect to
 
   pinMode(D1,OUTPUT);//RED
   pinMode(D2,OUTPUT);//GREEN
